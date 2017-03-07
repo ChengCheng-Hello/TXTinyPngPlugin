@@ -25,3 +25,4 @@ UsedCompressionCount=86
 - [Getting Started with JGit](http://www.codeaffine.com/2015/12/15/getting-started-with-jgit/)
 - [How to Access a Git Repository with JGit](http://www.codeaffine.com/2014/09/22/access-git-repository-with-jgit/)
 - [Android Studio插件开发实践--从创建到发布](http://www.jianshu.com/p/f017097e4b26)
+- [Android Studio插件开发](http://jiajixin.cn/2015/10/11/android-studio-plugin-dev/)
