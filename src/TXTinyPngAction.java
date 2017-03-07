@@ -24,12 +24,12 @@ import java.util.*;
 /**
  * TinyPng压缩
  * <p>
- * 1. 需要在主工程目录下创建 ting.properties。
- * 2. TinyPngApiKey: 需要在 https://tinypng.com/ 注册获取ApiKey, 目前一个ApiKey每月可免费压缩图片500次。
- * 4. UsedCompressionCount: 当前已使用压缩次数。
+ * 1. 需要在主工程目录下创建 tiny.properties。
+ * 2. 配置TinyPngApiKey: 需要在 https://tinypng.com/ 注册获取ApiKey, 目前一个ApiKey每月可免费压缩图片500次。
+ * 4. 每次压缩之后会自动更新：UsedCompressionCount，当前已使用压缩次数。
  * 5. 如果压缩率小于 30% 相当于压缩过，不再压缩。
- * 6. 压缩和不需要压缩的分开提交git
- * <p>
+ * 6. 成功压缩的图片，自动git commit -m "压缩图片[n]张"。
+ * 7. 不需要压缩的图片，自动git commit -m "不需要压缩图片[n]张"。
  * <p>
  * Created by Cheng on 17/3/1.
  */
