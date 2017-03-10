@@ -1,12 +1,11 @@
 <idea-plugin version="2">
     <id>com.baijiahulian.tianxiao.action</id>
     <name>TXTinyPngUtil</name>
-    <version>1.0</version>
-    <vendor email="chengcheng@baijiahulian.com" url="http://tianxiao100.com">天校</vendor>
+    <version>1.0.1</version>
+    <vendor email="chengcheng@baijiahulian.com" url="https://github.com/ChengCheng-Hello">ChengCheng</vendor>
 
     <description><![CDATA[
-      Enter short description for your plugin here.<br>
-      <em>most HTML tags may be used</em>
+    TinyPng压缩，自动识别git仓库下更改的图片，使用TingPngApi进行压缩，然后自动git commit。
     ]]></description>
 
     <change-notes><![CDATA[
