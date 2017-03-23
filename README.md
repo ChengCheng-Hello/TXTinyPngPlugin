@@ -1,6 +1,9 @@
 # TXTinyPngPlugin
 TinyPng压缩，自动识别git仓库下更改的图片，使用TingPngApi进行压缩，然后自动git commit。
 
+# 版本
+V1.0.3: 修复Android Studio 2.3+问题。
+
 # 安装说明
 1. 本地手动安装：Android Studio -> Preferences -> Plugins -> Install plugin from disk -> TXTinyPngPlugin.zip
 2. 网络自动下载：Android Studio -> Preferences -> Plugins -> Browse reposotories... -> search TXTinyPngPlugin
