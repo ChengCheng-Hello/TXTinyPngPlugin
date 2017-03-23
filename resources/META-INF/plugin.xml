@@ -1,7 +1,7 @@
 <idea-plugin version="2">
     <id>com.baijiahulian.tianxiao.action</id>
     <name>TXTinyPngUtil</name>
-    <version>1.0.2</version>
+    <version>1.0.3</version>
     <vendor email="chengcheng@baijiahulian.com" url="https://github.com/ChengCheng-Hello">ChengCheng</vendor>
 
     <description><![CDATA[
@@ -31,7 +31,7 @@
 
     <actions>
         <!-- Add your actions here -->
-        <action id="RunTiny" class="TXTinyPngAction" text="TXTinyPngUtil">
+        <action id="RunTiny" class="Utils.TXTinyPngAction" text="TXTinyPngUtil">
             <add-to-group group-id="ToolsMenu" anchor="last"/>
             <keyboard-shortcut keymap="$default" first-keystroke="shift ctrl T"/>
         </action>
