@@ -75,7 +75,6 @@ public class TXTinyPngAction extends AnAction {
                             File proFile = new File(basePath, PROFILE);
                             if (!proFile.exists()) {
                                 proFile.createNewFile();
-
                             }
 
                             mProperties = new HashMap<>();
@@ -105,7 +104,7 @@ public class TXTinyPngAction extends AnAction {
 
                 showAsyncMessage("验证TinyPng ApiKey...");
 
-                Tinify.setKey("38w2RidTDXLpEiF7NE_YQkx8aOA4Aoek");
+                Tinify.setKey(mApiKey);
                 Tinify.validate();
 
                 showAsyncMessage("本月使用压缩次数 " + Tinify.compressionCount());
