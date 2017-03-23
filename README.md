@@ -3,7 +3,7 @@ TinyPng压缩，自动识别git仓库下更改的图片，使用TingPngApi进行
 
 # 安装说明
 1. 本地手动安装：Android Studio -> Preferences -> Plugins -> Install plugin from disk -> TXTinyPngPlugin.zip
-2. 网络自动下载：Android Studio -> Preferences -> Plugins -> Browse reposotories... -> search TXTinypngPlugin
+2. 网络自动下载：Android Studio -> Preferences -> Plugins -> Browse reposotories... -> search TXTinyPngPlugin
 
 # 相关说明
 1. 需要在主工程目录下创建 tiny.properties
